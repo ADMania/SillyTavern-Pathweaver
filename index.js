@@ -970,7 +970,7 @@
             if (title && title.length > 2 && title.length < 150) {
                 suggestions.push({
                     emoji,
-                    title: title.substring(0, 100),
+                    title: title.substring(0, 150),
                     description: description || title
                 });
             }
